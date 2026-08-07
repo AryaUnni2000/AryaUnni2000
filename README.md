@@ -50,6 +50,6 @@ I am a Data Analytics graduate student with a strong background in Computer Scie
 
 ## 📊 Connect with Me
 
-- 💼 **LinkedIn:** [Insert Your LinkedIn URL Here]
+- 💼 **LinkedIn:**https://www.linkedin.com/in/arya-unni-191a85225?utm_source=share_via&utm_content=profile&utm_medium=member_android
 - 📧 **Email:** aryauuni.tkm@gmail.com
 - 📍 **Location:** Ontario, Canada
