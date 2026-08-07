@@ -1,0 +1,10 @@
+education_level,1 to less than 7 months,1 year to less than 2 years,2 years to less than 3 years,3 years to less than 5 years,5 years or more,7 months to less than 1 year,No experience,Not Specified,All
+Bachelor's degree,1,9,5,12,12,1,2,0,42
+"College, CEGEP or other non-university certificate or diploma from a program of 1 year to 2 years",0,2,1,0,1,0,0,0,4
+"College, CEGEP or other non-university certificate or diploma from a program of 3 months to less than 1 year",0,1,0,1,0,1,0,0,3
+College/CEGEP,0,1,4,1,0,0,2,0,8
+Master's degree,0,1,1,0,0,0,0,0,2
+"No degree, certificate or diploma",0,2,0,0,0,0,0,0,2
+Not Specified,0,0,0,0,0,0,0,428,428
+Secondary (high) school graduation certificate,1,0,0,0,0,1,0,0,2
+All,2,16,11,14,13,3,4,428,491

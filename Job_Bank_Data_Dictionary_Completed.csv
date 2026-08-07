@@ -1,0 +1,72 @@
+Column_Name,Data_Type,Missing_Count,Missing_Percentage,Definition,Missing_Value_Treatment,Intended_Analytical_Use
+posting_id,int64,0,0.0,Unique identifier for the job advertisement,Drop duplicates if any,Primary key for posting count calculations
+job_title,object,0,0.0,Description unavailable,None,General variable
+original_job_title,object,33737,61.24,Description unavailable,None,General variable
+noc_2016_code,float64,375,0.68,Description unavailable,None,General variable
+noc_2016_name,object,375,0.68,Description unavailable,None,General variable
+noc_2021_code,float64,370,0.67,National Occupational Classification 2021 5-digit code,Keep NaN as unknown,Primary grouping variable for occupational analysis
+noc_2021_name,object,370,0.67,Official title of the occupation,Impute with Unspecified,Categorical target for demand aggregation
+external_indicator,int64,0,0.0,Description unavailable,None,General variable
+posting_date,object,0,0.0,Description unavailable,None,General variable
+vacancy_count,int64,0,0.0,Number of job openings advertised in posting,Fill with 1 (default assumption),Quantitative demand measure
+official_language,object,0,0.0,Description unavailable,None,General variable
+education_level,object,33112,60.1,Minimum required education,Categorize as Not Specified,Skill requirement feature for cross-tabulation
+experience_level,object,33112,60.1,Minimum required experience,Categorize as Not Specified,Experience feature for diagnostic analysis
+government_type,object,33369,60.57,Description unavailable,None,General variable
+placement_agency,object,33112,60.1,Description unavailable,None,General variable
+naics,object,33112,60.1,Description unavailable,None,General variable
+province,object,0,0.0,Canadian province or territory location,Drop if missing,Geographic analysis and regional comparisons
+city,object,409,0.74,Description unavailable,None,General variable
+work_location_postal_code,object,29495,53.54,Description unavailable,None,General variable
+economic__region,object,409,0.74,Description unavailable,None,General variable
+various_location,object,0,0.0,Description unavailable,None,General variable
+employment_type,object,2032,3.69,Description unavailable,None,General variable
+employment_term,object,12580,22.83,Description unavailable,None,General variable
+employment_term_start_date,object,49111,89.15,Description unavailable,None,General variable
+employment_term_end_date,object,54660,99.22,Description unavailable,None,General variable
+employment_term_oncall,object,33112,60.1,Description unavailable,None,General variable
+employment_term_overtime,object,33112,60.1,Description unavailable,None,General variable
+employment_term_day,object,33112,60.1,Description unavailable,None,General variable
+employment_term_evening,object,33112,60.1,Description unavailable,None,General variable
+employment_term_shift,object,33112,60.1,Description unavailable,None,General variable
+employment_term_weekend,object,33112,60.1,Description unavailable,None,General variable
+employment_term_night,object,33112,60.1,Description unavailable,None,General variable
+employment_term_telework,object,33112,60.1,Description unavailable,None,General variable
+employment_term_early,object,33112,60.1,Description unavailable,None,General variable
+employment_term_flex,object,33112,60.1,Description unavailable,None,General variable
+employment_term_morning,object,33112,60.1,Description unavailable,None,General variable
+employment_term_tbd,object,33112,60.1,Description unavailable,None,General variable
+salary_condition_detail,object,14,0.03,Description unavailable,None,General variable
+salary_period,object,115,0.21,Description unavailable,None,General variable
+salary_minimum,float64,15,0.03,Description unavailable,None,General variable
+salary_maximum,float64,15,0.03,Description unavailable,None,General variable
+salary_condition_collective,object,33112,60.1,Description unavailable,None,General variable
+salary_condition_bonus,object,33112,60.1,Description unavailable,None,General variable
+salary_condition_disability,object,33112,60.1,Description unavailable,None,General variable
+salary_condition_gratuity,object,33112,60.1,Description unavailable,None,General variable
+salary_condition_medical,object,33112,60.1,Description unavailable,None,General variable
+salary_condition_mileage,object,33112,60.1,Description unavailable,None,General variable
+salary_condition_piecework,object,33112,60.1,Description unavailable,None,General variable
+salary_condition_commission,object,33112,60.1,Description unavailable,None,General variable
+salary_condition_resp,object,33112,60.1,Description unavailable,None,General variable
+salary_condition_dental,object,33112,60.1,Description unavailable,None,General variable
+salary_condition_group_insurance,object,33112,60.1,Description unavailable,None,General variable
+salary_condition_life_insurance,object,33112,60.1,Description unavailable,None,General variable
+salary_condition_pension,object,33112,60.1,Description unavailable,None,General variable
+salary_condition_rrsp,object,33112,60.1,Description unavailable,None,General variable
+condition_vision_care,object,33112,60.1,Description unavailable,None,General variable
+salary_condition_other_benefits,object,33112,60.1,Description unavailable,None,General variable
+commission_per,object,54894,99.64,Description unavailable,None,General variable
+commission_type,object,54894,99.64,Description unavailable,None,General variable
+hours_per,object,33112,60.1,Description unavailable,None,General variable
+hours_minimum,float64,30084,54.61,Description unavailable,None,General variable
+hours_maximum,float64,30084,54.61,Description unavailable,None,General variable
+work_hours,object,0,0.0,Description unavailable,None,General variable
+work_hours_from_time,object,54209,98.4,Description unavailable,None,General variable
+work_hours_to_time,object,54209,98.4,Description unavailable,None,General variable
+salary_average,float64,15,0.03,Calculated or listed average wage rate ($),Filter outliers / Median impute,Primary economic metric for diagnostic testing
+job_id,int64,0,0.0,Description unavailable,None,General variable
+noc_title,object,0,0.0,Description unavailable,None,General variable
+province_territory,object,0,0.0,Description unavailable,None,General variable
+vacancies,int64,0,0.0,Description unavailable,None,General variable
+hourly_wage,float64,15,0.03,Description unavailable,None,General variable

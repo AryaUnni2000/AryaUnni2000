@@ -1,0 +1,11 @@
+noc_title,count,mean,median,std,min,max
+Business development officers and market researchers and analysts,1,60000.0,60000.0,,60000.0,60000.0
+Business systems specialists,14,27343.27892857143,49.545,36733.164064763856,38.36,82810.0
+Cybersecurity specialists,6,13556.436666666666,46.31,33095.33217944892,37.5,81112.0
+Data scientists,57,35641.48692982456,90.0,47101.80998256758,35.0,120000.0
+Database analysts and data administrators,28,21620.98589285714,45.0,37873.71568787569,15.0,109672.695
+Financial and investment analysts,52,62476.209807692314,80000.0,43439.66836958529,19.5,139325.0
+Information systems specialists,2,38.0,38.0,0.0,38.0,38.0
+Professional occupations in business management consulting,1,90000.0,90000.0,,90000.0,90000.0
+Software developers and programmers,323,19068.475263157896,29.0,38960.541440912006,12.0,162891.75
+Unspecified,7,92414.85714285714,89716.0,12105.197704960896,73511.0,111055.0
